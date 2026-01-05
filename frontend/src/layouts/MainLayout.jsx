@@ -4,9 +4,13 @@ import { Outlet } from 'react-router-dom';
 
 const MainLayout = () => {
   return (
-    <div>
-      <Sidebar />
-      <Outlet />
+    <div className="flex min-h-screen">
+      <div className="flex-none">
+        <Sidebar />
+      </div>
+      <div className="flex-1">
+        <Outlet />
+      </div>
     </div>
   );
 };
