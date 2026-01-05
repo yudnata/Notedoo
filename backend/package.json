@@ -4,13 +4,15 @@
   "description": "PERN Learn",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.2.1",
+    "nodemon": "^3.1.11",
     "pg": "^8.16.3"
   }
 }
